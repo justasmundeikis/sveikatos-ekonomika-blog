@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Sveikatos-Ekonomika.lt"
+  navbar:
+    right:
+      - autoriai.qmd
+      - icon: github
+        href: https://github.com/justasmundeikis/sveikatos-ekonomika-blog
+      - icon: facebook
+        href: https://www.facebook.com/sveikatos.ekonomika
+format:
+  html:
+    theme: spacelab
+    css: styles.css
+
+
+
